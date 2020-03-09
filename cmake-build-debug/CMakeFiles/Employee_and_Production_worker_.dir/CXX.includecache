@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fahidkhan/CLionProjects/Employee and Production worker /employee.h
+string
+-
+iostream
+-
+
+/Users/fahidkhan/CLionProjects/Employee and Production worker /main.cpp
+employee.h
+/Users/fahidkhan/CLionProjects/Employee and Production worker /employee.h
+productionWorker.h
+/Users/fahidkhan/CLionProjects/Employee and Production worker /productionWorker.h
+string
+-
+iomanip
+-
+iostream
+-
+
+/Users/fahidkhan/CLionProjects/Employee and Production worker /productionWorker.h
+employee.h
+/Users/fahidkhan/CLionProjects/Employee and Production worker /employee.h
+iostream
+-
+
